@@ -22,7 +22,7 @@ function CustomerRouters() {
           element={<Product />}
         ></Route>
         <Route path="/product/:productId" element={<ProductDetails />}></Route>
-        {/* <Route path='/product/:productId' element={}></Route> */}
+        <Route path="/product" element={<Product />}></Route>
       </Routes>
     </div>
   );
